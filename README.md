@@ -21,7 +21,7 @@ This repository includes:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/dsa-practice.git
+   git clone https://github.com/rameshwarTiwari1/DSA-Practics
    ```
 2. Navigate to the desired folder to explore specific topics or problems.
 3. Compile and run the code using your preferred C++ compiler.
