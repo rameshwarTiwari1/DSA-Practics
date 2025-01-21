@@ -25,9 +25,7 @@ This repository includes:
    ```
 2. Navigate to the desired folder to explore specific topics or problems.
 3. Compile and run the code using your preferred C++ compiler.
-   ```bash
-   Give the input in input file or you can use terminal and see ouput in ouput.txt file or in your terminal.
-   ```
+4. Give the input in input file or you can use terminal and see ouput in ouput.txt file or in your terminal.
 
 ## 🌟 Goals
 
