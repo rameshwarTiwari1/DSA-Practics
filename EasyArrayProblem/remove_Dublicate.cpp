@@ -38,19 +38,7 @@ void removeDuplicateEleme(vector<int>&arr,int n){
     arr.resize(i);
 }
 
-int findDuplicate(vector<int> &arr) 
-{
-    int n=arr.size();
-	for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(arr[i]==arr[j]){
-                cout<<arr[i]<<" ";
-                break;
-            }
-        }
-    }
-    return -1;
-}
+
 
 int main(){
     int n;
@@ -59,8 +47,8 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    // removeDuplicateEleme(arr,n);
-    findDuplicate(arr);
-    // for(auto it:arr) cout<<it<<" ";
+    removeDuplicateEleme(arr,n);
+    // arr.size() here not n coz arraay size changed after removing duplicate
+    for(int i=0;i<arr.size();i++) cout<<arr[i];
     return 0;
 }
