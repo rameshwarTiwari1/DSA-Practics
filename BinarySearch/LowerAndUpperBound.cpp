@@ -1,6 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// In Sorted Array 
+// We are using Binary search method to implemet lower and upper bound
+
+/*
+The lower bound of an element x in a sorted array is the first index where x is greater than or equal to the element.
+The upper bound of an element x in a sorted array is the first index where x is greater than the element.
+Example= input= 1 2 3 6 7 8 9 10 target=6
+ouput=  The LowerBound: 3
+        The UpperBound: 4
+
+*/
+
 int lowerBound(vector<int>&arr,int n,int target){
     int low=0,high=n-1;
     int ans=n;

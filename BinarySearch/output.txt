@@ -1,2 +1,4 @@
-The LowerBound: 3
-The UpperBound: 3
+The LowerBound: 2
+The UpperBound: 4
+First Occurrence: 2 Last Occurrence: 3
+First Occurrence: 2 Last Occurrence: 3
